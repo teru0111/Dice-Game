@@ -10,3 +10,9 @@ print("Die 2: "+str(dice2))
 
 total = dice1+dice2
 print("Total value: "+str(total))
+
+#Judgement
+if total>=7:
+    print("You won")
+else:
+    print("You lost")
