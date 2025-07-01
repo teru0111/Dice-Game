@@ -1,6 +1,13 @@
 import random
 import random as rd
 
+# Greetings
+print('What is your name?')
+userName = input("> ")
+print("Hello, "+userName+"!")
+
+
+# Rolling dice
 print('Rolling dice...')
 
 dice1 = random.randint(1,6)
