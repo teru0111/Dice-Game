@@ -20,6 +20,6 @@ print("Total value: "+str(total))
 
 #Judgement
 if total>=7:
-    print("You won")
+    print(userName+" won")
 else:
-    print("You lost")
+    print(userName+" lost")
